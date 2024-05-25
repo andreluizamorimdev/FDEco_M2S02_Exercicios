@@ -35,3 +35,17 @@ let produtos = [
 
 console.log(agruparPorCategoria(produtos));
 // fim do Exercicio 03
+
+// Ex 4 - Funções que Retornam Funções (Closures)
+// Descrição: Crie uma função contador que retorna uma outra função que incrementa um valor interno e retorna o valor atualizado a cada chamada.
+const contador = require("./Exercicio04");
+let contador1 = contador();
+
+console.log(contador1());
+console.log(contador1());
+console.log(contador1());
+
+let contador2 = contador();
+console.log(contador2());
+console.log(contador2());
+// fim do Exercicio 04
