@@ -20,6 +20,10 @@ Descrição: Crie uma função contador que retorna uma outra função que incre
 
 Descrição: Dado um array de números, crie uma função que use reduce para calcular o produto de todos os números no array.
 
+## Ex 6 - Funções de Alta Ordem
+
+Descrição: Crie uma função transformarArray, que recebe um array e uma função de transformação e retorna um novo array, onde cada elemento é o resultado da aplicação da função de transformação ao elemento correspondente do array original.
+
 ## Ex 7 - Composição de Funções
 
 Descrição: Crie uma função compor que recebe duas funções f e g e retorna uma nova função que é a composição de f e g (ou seja, f(g(x))).

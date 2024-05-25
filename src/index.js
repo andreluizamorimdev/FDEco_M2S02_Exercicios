@@ -60,3 +60,18 @@ console.log(
   calcularProduto(numerosEx05)
 );
 // fim do Exercicio 05
+
+// Ex 6 - Funções de Alta Ordem
+// Descrição: Crie uma função transformarArray, que recebe um array e uma função de transformação e retorna um novo array, onde cada elemento é o resultado da aplicação da função de transformação ao elemento correspondente do array original.
+const transformarArray = require("./Exercicio06");
+
+let numerosEx06 = [1, 2, 3, 4, 5];
+function dobrar(numero) {
+  return numero * 2;
+}
+
+console.log(
+  "\n resultado ex06 funções de alta ordem: ",
+  transformarArray(numerosEx06, dobrar)
+);
+// fim do Exercicio 06
