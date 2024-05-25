@@ -49,3 +49,14 @@ let contador2 = contador();
 console.log(contador2());
 console.log(contador2());
 // fim do Exercicio 04
+
+// Ex 5 - Redução de Arrays
+// Descrição: Dado um array de números, crie uma função que use reduce para calcular o produto de todos os números no array.
+const calcularProduto = require("./Exercicio05");
+
+let numerosEx05 = [1, 2, 3, 4, 5];
+console.log(
+  "\n resultado ex05 redução de arrays: ",
+  calcularProduto(numerosEx05)
+);
+// fim do Exercicio 05
